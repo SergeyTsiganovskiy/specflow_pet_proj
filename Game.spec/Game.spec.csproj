@@ -102,6 +102,7 @@
     <Compile Include="AwaitingReviewSteps.cs" />
     <Compile Include="CommonPlayerCharacterSteps.cs" />
     <Compile Include="CustomConversions.cs" />
+    <Compile Include="Hooks.cs" />
     <Compile Include="PlayerAttributes.cs" />
     <Compile Include="PlayerCharacterSteps.cs" />
     <Compile Include="PlayerCharacterStepsContext.cs" />

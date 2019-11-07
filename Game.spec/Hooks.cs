@@ -1,12 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using TechTalk.SpecFlow;
 
 namespace Game.spec
 {
-    class Hooks
+    [Binding]
+    public class Hooks : Steps
     {
+        [BeforeScenario]
+        public void BeforeScenario()
+        {
+
+        }
+
+        [AfterScenario]
+        public void AfterScenario()
+        {
+
+        }
     }
 }
